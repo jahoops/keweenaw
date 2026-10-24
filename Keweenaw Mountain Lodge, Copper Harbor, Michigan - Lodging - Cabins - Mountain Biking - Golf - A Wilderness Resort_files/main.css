@@ -1,0 +1,292 @@
+
+
+#container {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-position: top center;
+	background-image: url('images/back-main.jpg');
+	background-repeat: repeat;
+	margin-top: 0px;
+}
+
+
+		#navi {
+	width: 230px;
+	height: 178px; /* margin: 0 auto; */;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 385px;
+	
+}
+		
+		#navi {
+		    z-index: 100;
+			}
+			
+			
+		#mos {
+	width: 1000px;
+	height: 200px; /* margin: 0 auto; */;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 0px;
+	
+}
+		
+		#mos {
+		    z-index: 100;
+			}
+			
+			
+		 			
+
+
+
+a.botMenu { color:#6D6F72; font-weight: 700; text-decoration:none; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; }
+a.botMenu:hover { text-decoration: none; font-weight: 700; color: #F13924; font-size: 8pt; font-family: Arial, Helvetica, sans-serif;	}
+
+A { text-decoration: none; }
+A:hover { text-decoration: underline; }
+
+
+	
+
+
+	
+	
+	
+.menu-link {
+	text-align: center; 
+	color: #AF8465; 
+	margin-top: 13px; 
+	margin-bottom: 0px;
+	font-family: 'Times New Roman', Times, serif;
+	}	
+	
+.menu-link  a { color: #AF8465; text-decoration:none }
+.menu-link:hover a { color: #FFFFFF; text-decoration:none }
+
+
+.menu-link-top {
+
+	color: #E97A38; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt; 
+	margin-left: 22px; 
+	margin-top: 13px; 
+	margin-bottom: 0px;
+
+	}	
+	
+.menu-link-top  a { color: #E97A38; text-decoration:none }
+.menu-link-top:hover a { color: #FFFFFF; text-decoration:none }
+
+
+.menu-link-bot {
+
+	color: #E97A38; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt; 
+	margin-top: 13px; 
+	margin-bottom: 0px;
+
+	}	
+	
+.menu-link-bot a { color: #E97A38; text-decoration:none }
+.menu-link-bot:hover a { color: #FFFFFF; text-decoration:none }
+
+
+	
+	
+	
+	
+
+
+
+
+/*
+	SLIDE SHOW CSS
+	Load CSS before JavaScript
+*/
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+.slides_container {
+	width:1000px;
+	display:none;
+	
+}
+
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+.slides_container div {
+	width:1000px;
+	height:475px;
+	display:block;
+	
+
+}
+		
+
+
+.nextbut {
+	
+	display:block;
+	width:24px;
+	height:43px;
+    z-index:101;
+    left:-39px;
+	background-image:url(images/arrow-next.png);
+}
+
+
+/*
+	Pagination
+
+.pagination {
+	margin:10px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+*/
+		
+/*
+	Footer
+
+
+#footer {
+	text-align:center;
+	width:580px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+*/
+
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 10%;
+	width: 100%;
+	margin-top: 0px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #666666;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    
+}
+
+.overlay .closebtn2 {
+    position: relative;
+    top: 0px;
+    top: 0px;
+    right: 20px;
+    font-size: 60px;
+    
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
